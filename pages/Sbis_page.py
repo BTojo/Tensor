@@ -40,7 +40,7 @@ class SbisRuPage:
         time.sleep(5)
 
         download_url = object_to_download_link.get_attribute("href")
-        download_directory = "D:\\git\\autotests\\downloads"
+        download_directory = "D:\\git\\tensor\\downloads"
         response = requests.get(download_url)
         file_name = os.path.join(download_directory, "sbisplugin-setup-web.exe")
 

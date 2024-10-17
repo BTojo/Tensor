@@ -16,7 +16,7 @@ def browser():
     chrome_options.add_argument("--disable-web-security")
     chrome_options.add_argument("--allow-insecure-localhost")
     prefs = {
-        "download.default_directory": r"D:\git\autotests\downloads",
+        "download.default_directory": r"D:\git\tensor\downloads",
         "download.prompt_for_download": False,
         "directory_upgrade": True,
         "safebrowsing.enabled": True
